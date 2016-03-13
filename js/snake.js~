@@ -1,0 +1,5 @@
+ var canvas = $("#canvas")[0];
+    canvas.width =1350;
+    canvas.height = 800;
+	var ctx = canvas.getContext("2d");
+ ctx.fillRect(0,0,20,20);
